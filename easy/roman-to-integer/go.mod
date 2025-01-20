@@ -1,4 +1,4 @@
-module roman-to-integer
+module two-sum
 
 go 1.22.1
 
