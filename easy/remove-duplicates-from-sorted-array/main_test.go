@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestMergeTwoLists(t *testing.T) {
+func TestRemoveDuplicates(t *testing.T) {
 	v := []int{1, 1, 2}
 	k := removeDuplicates(v)
 	assert.Equal(t, 2, k)
