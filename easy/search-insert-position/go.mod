@@ -1,4 +1,4 @@
-module roman-to-integer
+module search-insert-position
 
 go 1.22.1
 
