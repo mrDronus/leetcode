@@ -23,3 +23,17 @@ func isPalindrome(x int) bool {
 	}
 	return true
 }
+
+func isPalindrome2(x int) bool {
+	if x < 0 {
+		return false
+	}
+	mdl := x
+	rev := 0
+	for mdl > 0 {
+		rev *= 10
+		rev += mdl % 10
+		mdl /= 10
+	}
+	return rev == x
+}
